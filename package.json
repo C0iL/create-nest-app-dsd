@@ -1,0 +1,24 @@
+{
+	"name": "create-nest-app-dsd",
+	"version": "1.0.4",
+	"description": "NestJS boilerplate code generator (DSD) ",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"nestjs",
+		"boilerplate",
+		"template#dsd"
+	],
+	"author": "C0iL",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"helmet": "^6.0.0",
+		"shelljs": "^0.8.5"
+	},
+	"bin": {
+		"create-nest-app-dsd": "index.js"
+	}
+}
