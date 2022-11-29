@@ -7,7 +7,7 @@ Creates backend starter project based on [Nest](https://github.com/nestjs/nest)
 ## Features
 
 -   PassportJS auth implementation (local and jwt strategies)
--   TypeORM + PostgreSQL are implemented
+-   TypeORM + PostgreSQL/MySQL are implemented
 -   Node-mailer is integrated and configured
 -   GCloud Storage Bucket - Basic implementation
 -   Swagger Doc
