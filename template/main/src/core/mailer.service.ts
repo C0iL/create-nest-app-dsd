@@ -20,6 +20,7 @@ export class MailerConfigService implements MailerOptionsFactory {
 					ciphers: 'SSLv3',
 					secureProtocol: 'TLSv1_method',
 				},
+				connectionTimeout: 10000,
 			},
 			defaults: {
 				from: this.config.get<string>('EMAIL_SENDER_ADDRESS'),

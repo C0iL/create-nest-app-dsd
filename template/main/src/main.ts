@@ -65,8 +65,14 @@ async function bootstrap() {
 	});
 
 	//Finally start the app
-	const port = parseInt(process.env.PORT) || 8080;
-	await app.listen(port);
+	let port = parseInt(process.env.PORT) || 8080;
+	let retry = false;
+	await app.listen(port).catch((err) => (retry = err.code === 'EADDRINUSE'));
+	if (retry) {
+		port = port + 1;
+		console.log('Retrying on port: ', port);
+		await app.listen(port);
+	}
 	console.log(`App started on port: ${port} at:`, new Date().toLocaleString());
 }
 bootstrap();
