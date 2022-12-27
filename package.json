@@ -1,31 +1,31 @@
 {
-	"name": "create-nest-app-dsd",
-	"version": "1.0.7",
-	"description": "NestJS boilerplate code generator (DSD) ",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/C0iL/create-nest-app-dsd.git"
-	},
-	"keywords": [
-		"nestjs",
-		"boilerplate",
-		"template#dsd"
-	],
-	"author": "C0iL",
-	"license": "ISC",
-	"dependencies": {
-		"colors": "^1.4.0",
-		"helmet": "^6.0.0",
-		"inquirer": "^9.1.4",
-		"ora": "^6.1.2",
-		"shelljs": "^0.8.5"
-	},
-	"bin": {
-		"create-nest-app-dsd": "index.js"
-	}
+    "name": "create-nest-app-dsd",
+    "version": "1.0.8",
+    "description": "NestJS boilerplate code generator (DSD) ",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/C0iL/create-nest-app-dsd.git"
+    },
+    "keywords": [
+        "nestjs",
+        "boilerplate",
+        "template#dsd"
+    ],
+    "author": "C0iL",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "helmet": "^6.0.0",
+        "inquirer": "^9.1.4",
+        "ora": "^6.1.2",
+        "shelljs": "^0.8.5"
+    },
+    "bin": {
+        "create-nest-app-dsd": "index.js"
+    }
 }
