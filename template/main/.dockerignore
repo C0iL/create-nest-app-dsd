@@ -1,0 +1,15 @@
+*.~
+.git
+**/*.gz
+**/*.log
+**/*.tar
+**/*.zip
+**/.DS_Store
+.gitignore
+*docker-compose*
+Makefile
+target
+.vscode
+release
+dist
+node_modules

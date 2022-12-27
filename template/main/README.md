@@ -36,6 +36,7 @@
 6. **_src/core_**: Google cloud storage-тай ажиллах, cache тохируулах, global exception handle хийх, имейл болон баазын тохиргоонууд
 7. **_src/mail_**: Имейлийн загвар болон бусад тохиргоо
 8. **.gitignore** файлд .env файлуудыг нэмнэ
+9. Google Cloud Run дээр deploy хийх бол **.github/workflows/gcp.yml** файл доторх мөрүүдийг uncomment хийж **_REPLACE_THIS_** гэсэн утгуудыг тохирох утгаар нь солино. Github дээрх **repository->settings->secrets->actions** дотор Google Service account key тохируулна. Ингэснээр main branch-д өөрчлөлт орох бүрт автоматаар docker image үүсч GCP-ийн artifact registry-д upload хийгдэнэ. Cloud Run үүсгэх үедээ artifact дундаас image-ээ сонгоод бусад шаардлагатай тохиргоонуудыг хийгээд deploy хийнэ.
 
 ## App ажиллуулах
 
